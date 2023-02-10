@@ -28,11 +28,11 @@
   text-decoration: none;
 }
 
-.main {
+main {
   display: flex;
   align-items: center;
   background-color: var(--Light-gray);
-  height: calc(100vh - 1.25rem);
+  min-height: calc(100vh - 1.25rem);
 }
 .card {
   background-color: var(--White);
